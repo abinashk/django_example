@@ -1,10 +1,10 @@
-# simple-lesson-quiz
+# django_example
 
 A quick and simple Django project example for creating lessons and quizzes. 
 
 ## Entities
 
-`simple-lesson-quiz` has three key entities:
+`django_example` has three key entities:
 
 1. **Lesson:** Instructional content that forms the basis of a quiz.
 2. **Question:** Questions make up the quiz itself and...
@@ -28,8 +28,8 @@ A quick and simple Django project example for creating lessons and quizzes.
 1. Clone down a copy of this repo and navigate inside the outer project folder:
 
     ```
-    $ git clone git@github.com:respondcreate/simple-lesson-quiz.git
-    $ cd simple-lesson-quiz/
+    $ git clone https://github.com/abinashk/django_example.git
+    $ cd django_example/
     ```
 
 2. Create and populate a SQLite database:
@@ -52,7 +52,7 @@ Now visit [http://127.0.0.1:8000/lessons/](http://127.0.0.1:8000/lessons/) to ge
 First, make sure your local webserver is running:
 
 ```
-$ cd simple-lesson-quiz/
+$ cd django_example/
 $ python manage.py runserver
 ```
 
